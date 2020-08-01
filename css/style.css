@@ -1,0 +1,344 @@
+
+
+@import url(C:\Users\user\Desktop\tuto\Soroban\css\partials\_variables.css);
+@import url(./fonts.css);
+
+.header_area .main-menu .navbar .navbar-brand{
+	padding:0 1rem 1 5rem;
+}
+
+
+
+.header_area .main-menu .nav-item .nav-link
+{
+	font-family:'Roboto',cursive;
+	text-transform: uppercase;
+	font-weight: 200;
+	border: 2em;
+	padding:1rem;
+	color : black;
+	font: normal 500 15px/3px 'Change',cursive;
+	
+
+
+}
+
+.header_area .main-menu .navbar-nav .active a
+{
+	background: linear-gradient(90deg,#48A4AF 0% ,rgb(4, 216, 240) 100%);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color:transparent;
+	background-clip: text;
+	
+}
+
+.header_area .main-menu .navbar-nav  a:hover
+{
+	background: linear-gradient(90deg,#48A4AF 0% ,grey 100%);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color:transparent;
+	background-clip: text;
+}
+
+html.body
+{
+    margin: 0%;
+    box-sizing: border-box;
+    width: 100%;
+    height: 100%;
+
+    
+}
+
+.site-main .site-banner{
+	
+	background: url(../img/pngfuel.png) no-repeat;
+}
+.site-main .site-banner .site-title h3{
+	padding-top: 50%;
+	font-weight: 30px;
+	font: normal bold 90px/100px ;
+	font-family: 'Change' ,cursive;
+	color: wheat;
+	
+}
+
+
+
+
+.site-main .site-banner .site-title h1{
+	padding-top: 7rem 0;
+	font-weight: 100rem bold;
+	font-family: 'Change' ,cursive;
+	font: normal bold 67px/72px ;
+	color: white;
+
+
+	
+}
+
+.site-main .site-banner .banner-img >img{
+	
+padding: 	5rem 1 ;
+width: 30rem;
+position: absolute;
+left: 50rem;
+
+
+	
+	
+}
+
+
+
+
+.site-main .about-area 
+{
+	padding: 8rem 5rem;
+}
+	
+.site-main .about-area .about-title h2 >span {
+	display: block;
+	font: normal bold 30px/60px 'Change',cursive;
+	letter-spacing: 21px;
+}
+
+
+
+p.para{
+	color:black;
+	font: normal 500 16px/25px 'Arial' ,cursive;
+
+}
+
+ .site-main .services-area  
+ {
+	
+	padding: 7rem 2rem;
+ }
+
+
+ .site-main .services-area .services-title
+ {
+	 padding: 0 14rem;
+ }
+
+ .site-main .services-area .services-title h1{
+	 font-size: 35px;
+	 font-family: 'Change',cursive;
+	 color: rgb(53, 159, 173);
+	 
+
+ }
+
+ .site-main > .services-area .services {
+	 background: rgb(225, 237, 238);
+	 padding: 2rem 0;
+	 width: 16rem;
+	 margin: 5rem .5rem;
+	 
+ }
+
+ .site-main > .services-area .services :hover{
+	color: blue !important;
+ }
+
+ p.paragraph
+ {
+	color:black;
+	font: normal 500 16px/25px 'change' ,cursive; 
+	
+ }
+
+
+ .site-main .services-area .services-list h5{
+	font-size: 20px;
+	font-family: 'Change',cursive;
+	color: rgb(53, 159, 173);
+	
+
+}
+
+.site-main .project-area h1 {
+	
+	font-size: 40px;
+	font-family: 'Change',cursive;
+	color: rgb(53, 159, 173);
+}
+
+.site-main .project-area{
+	padding: 4rem 0;
+}
+.site-main  .project-area  .grid  .out-project .img  >img
+{
+	width: 300px;
+}
+
+.site-main .project-area .button-group button 
+{
+	background: transparent;
+	border: none;
+	font : normal 500 16px/130px 'Change',cursive;
+	text-transform: uppercase;
+}
+
+.site-main .project-area .button-group button +button 
+{
+	padding-left: 3rem;
+}
+.site-main .project-area .grid .out-project  >title h4{
+	font : normal 700 25px/12px 'Change',cursive;
+}
+
+button:focus,
+button:active,
+button:hover
+.btn:active,
+.btn.active{
+	outline : 0px !important;
+	box-shadow: none;
+}
+
+.site-main .about-area {
+	
+}
+.site-main .about-area   .client-img >img 
+
+{
+	
+	border-radius: 50%;
+	padding: 2rem;
+	overflow: hidden;
+	width: 150px;
+	height:150px;
+	
+}
+
+.site-main .about-area .client 
+{
+	background: #ffffff10;
+	box-shadow: rgb(211, 218, 212);
+	margin: 3rem Orem;
+
+}
+
+.site-main .about-area .client .about-client 
+{
+	padding-top: 2rem;
+}
+
+.site-main .about-area .about-title h1{
+
+	border: none;
+	font : normal 500 16px/130px 'Change',cursive;
+	text-transform: uppercase;
+	color: rgb(53, 159, 173);
+	font-size: 40px;
+}
+
+.site-main .about-area .about-title h4{
+
+	
+	font :  normal 500 21px/20px 'Change',cursive;
+	font-size: 20px;
+
+}
+
+
+
+.site-main .about-area .client
+{
+	background: #ffffff10;
+	box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
+	margin: 3rem 0rem;
+}
+.site-main .about-area .owl-carousel .owl-item
+{
+	display: flex;
+	justify-content: center;
+	padding: 0 1.5rem;
+
+}
+
+.site-main .about-area .owl-carousel .owl-dots .owl-dot.active span
+{
+	background:  rgb(53, 159, 173);;
+	width: 12px;
+	height: 12px;
+}
+
+
+.site-main .subscribe-us-area .subscribe
+{
+	background: url(../img/backgroud.jpg) no-repeat;
+	padding: 10rem 0;
+	margin: 3rem auto;
+
+}
+.site-main .subscribe-us-area .subscribe .subscribe-title h4{
+	font : normal 700 50px/30px 'Change',cursive ;
+	color: blue;
+}
+.site-main .subscribe-us-area .subscribe .subscribe-title p 
+{
+	color: teal;
+	padding:  1rem 4rem;
+
+}
+
+.site-main .subscribe-us-area .subscribe form .input-textbox 
+{
+	width: 400px;
+	padding:  1.5rem 1rem;
+	border: 1px solid whitesmoke;
+	background: transparent;
+	color :black;
+	font: normal 500  17px/20px  'Change',cursive ;
+}
+
+.site-main .subscribe-us-area .subscribe form .btn-submit  button 
+{
+background: blue;
+color: white;
+padding: .10rem 2rem  ;
+border-radius: 32px;
+ position: absolute;
+ left: 23px;
+ top: 23px;
+
+}
+
+footer.footer-area
+{
+	padding: 5rem 0;
+	
+}
+
+footer.footer-area .social h5{
+	font:normal 500 23px 'Change',cursive ;
+}
+
+footer.footer-area .social a>i{
+	
+	padding: 2rem;
+	color: gray;
+}
+footer.footer-area .social a:hover>i{
+	
+	color: gray
+	
+;
+}
+
+.navbar_fixed
+{
+	position: fixed;
+	width: 100%;
+	top: -1px;
+	left: 0;
+	right: 0;
+	background:  whitesmoke;
+	box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
+	z-index: 999;
+	transition: background 1s ease;
+}
